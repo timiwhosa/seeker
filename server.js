@@ -3,7 +3,7 @@ const cv = require('@u4/opencv4nodejs');
 const express = require("express");
 const app = express();
 
-const Port = process.env.port;
+const Port = process.env.Port;
 
 app.use(express.static("./Public"))
 app.get("/",(req,res)=>{
